@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(0, 255, 200, 0.789);
+}
+.typewriter {
+  font-family: monospace;
+  overflow: hidden; /* Hide the content that exceeds the width of the element */
+  letter-spacing: 0.15em; /* Define the space between letters */
+  animation: typing 5s steps(30, end), blink-caret .75s step-end infinite;
+  color: #5a376d;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The caret blinking effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+.falling-text {
+  animation: fall 3s linear;
+  color: rgba(0, 255, 30, 0.999);
+  width: 130px;
+  height: 130px;
+  border-radius: 51.789%;
+  background-color: rgba(25, 25, 255, 0.789);
+  box-shadow:
+    -20px -20px 0px rgba(0,125,128,0.789),
+    -10px -10px 0px rgba(0,125,128,0.789),
+    0px 0px 0px rgba(0,125, 128,0.789),
+    10px 10px 0px rgba(0,125, 128,0.789),
+    20px 20px 0px rgba(0,125, 128,0.789),
+    20px 20px 0px rgba(0, 125, 128, 0.789);
+}
